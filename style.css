@@ -16,10 +16,12 @@ main{
 .header-content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width:100%;
     height: 677px;
     background-color:  #2D25A0;
 }
+
  .Football{
     margin-left:70px;
 }
@@ -47,12 +49,12 @@ main{
 
 
 }
-.banner img{
-    width: 556.01px;
-    height: 438px;
-    margin: 140px;
+img{
+    width: 300px;
+    height: 400px;
+    margin: 50px;
 }
-.banner:hover .banner-img{
+.banner img:hover{
     transform: scale(1.2);
     transition: transform 2s ease-in-out;
 }
@@ -89,12 +91,15 @@ main{
     
 }
 /* This is match Highlight style */
+.Last-match h2{
+    font-size: 30px;
+}
 .match-highlight{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-   border: 1px solid;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+  
  
 }
 .Last-match p{
@@ -115,16 +120,15 @@ main{
 }
 
 .photo-fream {
-    height: 252px;
-    width: 400px;
+  border: 2px solid;
     position: relative;
     margin: 10px;
     overflow: hidden;
 }
 
-.photo-fream:hover .photo{
+.photo-fream .photo:hover {
     transform: scale(1.5);
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .photo-datail h2 {
@@ -140,11 +144,14 @@ main{
     background-color: #e9d8b94d;
     color: rgb(55, 40, 40);
 }
+.photo-datail p{
+    text-align: justify;
+    margin: 20px;
+    color: #FFFFFF;
 
+}
 .photo img {
-    width: 100%;
-    border-radius: 15px;
-
+  height: 280px;
 }
 
 .photo-datail {
